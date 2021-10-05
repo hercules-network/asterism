@@ -1,0 +1,30 @@
+[package]
+name = "asterism-chain-primitives"
+version = "0.1.0"
+authors = ["hercules-network"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.102", optional = true, features = ["derive"] }
+codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false, features = ["derive"] }
+
+sp-core = { version = "3.0.0", default-features = false }
+sp-runtime = { version = "3.0.0", default-features = false }
+sp-std = { version = "3.0.0", default-features = false }
+lyra-primitives = { package = "lyra-primitives", git = "https://github.com/hercules-network/lyra.git", default-features = false }
+
+pallet-evm = { default-features = false, path = "../../pallets/evm" }
+
+[features]
+default = ["std"]
+std = [
+    "serde",
+    "codec/std",
+    "sp-runtime/std",
+    "sp-core/std",
+    "sp-std/std",
+    "lyra-primitives/std",
+    "pallet-evm/std",
+]

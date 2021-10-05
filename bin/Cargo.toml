@@ -1,0 +1,30 @@
+[package]
+name = "asterism"
+version = "0.1.0"
+description = "Asterism node implementation in Rust"
+authors = ["hercules-network"]
+edition = "2018"
+
+[package.metadata.docs.rs]
+targets = ["x86_64-unknown-linux-gnu"]
+
+[[bin]]
+name = "asterism"
+path = "src/main.rs"
+
+[dependencies]
+futures         = { version = "0.3.13" }
+parity-util-mem = { version = "0.9.0", default-features = false, features = ["jemalloc-global"] }
+
+asterism-cli = { path = "cli" }
+asterism-service = { path = "service" }
+asterism-rpc = { path = "rpc" }
+quark-runtime = { path = "../runtime/quark", optional = true }
+hadron-runtime = { path = "../runtime/hadron", optional = true }
+
+[profile.release]
+# runtime requires unwinding.
+panic = "unwind"
+
+[features]
+default = [ ]

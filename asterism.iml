@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="RUST_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/bin/cli/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bin/rpc/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bin/service/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/bin/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/client/consensus/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/client/rpc-core/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/client/rpc/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pallets/dynamic-fee/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pallets/ethereum/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pallets/evm/precompile/simple/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/pallets/evm/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/primitives/chain/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/primitives/consensus/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/primitives/evm/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/primitives/rpc/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/runtime/hadron/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/runtime/quark/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

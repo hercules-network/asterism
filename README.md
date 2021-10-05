@@ -1,1 +1,1 @@
-# her-node
+# asterism

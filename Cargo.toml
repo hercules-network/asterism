@@ -1,0 +1,30 @@
+[profile.release]
+panic = "unwind"
+
+[workspace]
+default-members = [
+    "bin",
+    "primitives/*",
+    "runtime/*",
+    "pallets/*",
+    "client/*",
+]
+
+members = [
+    "bin",
+    "bin/cli",
+    "bin/rpc",
+    "bin/service",
+    "client/consensus",
+    "client/rpc",
+    "client/rpc-core",
+    "pallets/dynamic-fee",
+    "pallets/ethereum",
+    "pallets/evm",
+    "primitives/chain",
+    "primitives/consensus",
+    "primitives/evm",
+    "primitives/rpc",
+    "runtime/quark",
+    "runtime/hadron",
+]
