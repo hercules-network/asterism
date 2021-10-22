@@ -109,7 +109,7 @@ fn set_default_ss58_version(spec: &Box<dyn asterism_service::service::ChainSpec>
     let ss58_version = if spec.is_quark_network() {
         Ss58AddressFormat::SubstrateAccount
     } else if spec.is_hadron_network() {
-        Ss58AddressFormat::UniartsAccount
+        Ss58AddressFormat::SubstraTeeAccount
     } else {
         Ss58AddressFormat::SubstrateAccount
     };

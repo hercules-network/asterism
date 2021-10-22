@@ -1,9 +1,9 @@
 use crate::*;
-use pallet_nft::Config;
+use pallet_nfr::Config;
 
-/// Used for the module nft in `./nft.rs`
+/// Used for the module nfr in `./nfr.rs`
 impl Config for Runtime {
-    type ModuleId = AsterismNftModuleId;
+    type ModuleId = AsterismNfrModuleId;
     type Currency = Lyr;
     type Event = Event;
     type WeightInfo = ();

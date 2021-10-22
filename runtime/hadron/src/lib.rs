@@ -152,7 +152,7 @@ pub fn native_version() -> NativeVersion {
 parameter_types! {
     pub const AsterismTreasuryModuleId: ModuleId = ModuleId(*b"py/trsry");
     pub const StakingModuleId: ModuleId = ModuleId(*b"staking_");
-    pub const AsterismNftModuleId: ModuleId = ModuleId(*b"lyr/nftb");
+    pub const AsterismNfrModuleId: ModuleId = ModuleId(*b"lyr/nfrb");
     pub const AsterismBlindBoxModuleId: ModuleId = ModuleId(*b"lyr/bbxb");
     pub const LotteryModuleId: ModuleId = ModuleId(*b"lyr/lotb");
     pub const SocietyModuleId: ModuleId = ModuleId(*b"lyr/soci");
@@ -236,8 +236,8 @@ construct_runtime!(
 
         Names: pallet_names::{Module, Call, Storage, Event<T>} = 61,
         Assets: pallet_assets::{Module, Call, Storage, Event<T>} = 62,
-        Nft: pallet_nft_multi::{Module, Call, Storage, Event<T>} = 63,
-        BlindBox: pallet_nft_blindbox::{Module, Call, Storage, Event<T>} = 64,
+        Nfr: pallet_nfr_multi::{Module, Call, Storage, Event<T>} = 63,
+        BlindBox: pallet_nfr_blindbox::{Module, Call, Storage, Event<T>} = 64,
         Bridge: pallet_bridge::{Module, Call, Storage, Event<T>, Config<T>} = 65,
         Ethereum: pallet_ethereum::{Module, Call, Storage, Event, Config, ValidateUnsigned} = 66,
         EVM: pallet_evm::{Module, Config, Call, Storage, Event<T>} = 67,

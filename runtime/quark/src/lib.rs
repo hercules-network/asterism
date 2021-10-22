@@ -146,7 +146,7 @@ pub fn native_version() -> NativeVersion {
 parameter_types! {
     pub const AsterismTreasuryModuleId: ModuleId = ModuleId(*b"py/trsry");
     pub const StakingModuleId: ModuleId = ModuleId(*b"staking_");
-    pub const AsterismNftModuleId: ModuleId = ModuleId(*b"lyr/nftb");
+    pub const AsterismNfrModuleId: ModuleId = ModuleId(*b"lyr/nfrb");
     pub const LotteryModuleId: ModuleId = ModuleId(*b"lyr/lotb");
     pub const SocietyModuleId: ModuleId = ModuleId(*b"lyr/soci");
     pub const ElectionsPhragmenModuleId: LockIdentifier = *b"lyr/phre";
@@ -226,7 +226,7 @@ construct_runtime!(
 
         Names: pallet_names::{Module, Call, Storage, Event<T>} = 51,
         Assets: pallet_assets::{Module, Call, Storage, Event<T>} = 52,
-        Nft: pallet_nft::{Module, Call, Storage, Event<T>} = 53,
+        Nfr: pallet_nfr::{Module, Call, Storage, Event<T>} = 53,
     }
 );
 

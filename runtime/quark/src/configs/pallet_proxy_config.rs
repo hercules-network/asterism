@@ -54,7 +54,7 @@ impl InstanceFilter<Call> for ProxyType {
 				Call::Scheduler(..) |
 				Call::Proxy(..) |
 				Call::Multisig(..) |
-				Call::Nft(..) |
+				Call::Nfr(..) |
 				Call::Contracts(..)
             ),
             ProxyType::Governance => matches!(

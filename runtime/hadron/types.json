@@ -107,12 +107,12 @@
   "CollectionMode": {
     "_enum": {
       "Invalid": null,
-      "NFT": "u32",
+      "NFR": "u32",
       "Fungible": "u32",
       "ReFungible": "(u32, u32)"
     }
   },
-  "NftItemType": {
+  "NfrItemType": {
     "Collection": "u64",
     "Owner": "AccountId",
     "Data": "Vec<u8>",

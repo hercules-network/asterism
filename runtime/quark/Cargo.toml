@@ -68,7 +68,7 @@ pallet-staking-rpc-runtime-api = { default-features = false, git = "https://gith
 lyra-common = { git = "https://github.com/hercules-network/lyra.git", default-features = false }
 pallet-assets = { git = "https://github.com/hercules-network/lyra.git", default-features = false }
 pallet-names = { git = "https://github.com/hercules-network/lyra.git", default-features = false }
-pallet-nft = { git = "https://github.com/hercules-network/lyra.git", default-features = false }
+pallet-nfr = { git = "https://github.com/hercules-network/lyra.git", default-features = false }
 pallet-rewards = { git = "https://github.com/hercules-network/lyra.git", default-features = false }
 pallet-staking = { git = "https://github.com/hercules-network/lyra.git", default-features = false }
 pallet-validator-set = { git = "https://github.com/hercules-network/lyra.git", default-features = false }
@@ -117,7 +117,7 @@ std = [
     "pallet-contracts-rpc-runtime-api/std",
     "lyra-common/std",
     "pallet-names/std",
-    "pallet-nft/std",
+    "pallet-nfr/std",
     "pallet-validator-set/std",
     "pallet-rewards/std",
     "pallet-staking-rpc-runtime-api/std",

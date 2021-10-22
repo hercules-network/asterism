@@ -13,7 +13,7 @@ pub mod pallet_indices_config;
 pub mod pallet_membership_config;
 pub mod pallet_multisig_config;
 pub mod pallet_names_config;
-pub mod pallet_nft_config;
+pub mod pallet_nfr_config;
 pub mod pallet_proxy_config;
 pub mod pallet_recovery_config;
 pub mod pallet_rewards_config;

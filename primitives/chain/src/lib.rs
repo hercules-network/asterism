@@ -21,10 +21,10 @@ fn print_module_account() {
     // 6d6f646c70792f74727372790000000000000000000000000000000000000000 (5EYCAe5i...)
     account_of(*b"py/trsry", SubstrateAccount);
 
-    // lyr/nftb:
+    // lyr/nfrb:
     // 5EYCAe5fj5zwigs2Sr1KavTHcx1xfnpjUkN4SnAW9ngo8k4g
     // 6d6f646c6172742f6e6674620000000000000000000000000000000000000000 (5EYCAe5f...)
-    account_of(*b"lyr/nftb", SubstrateAccount);
+    account_of(*b"lyr/nfrb", SubstrateAccount);
 
     // lyr/soci:
     // 5EYCAe5fj5zwiqofZc6Q2cXmZSJQm9kW7Q5e1np77Fyog5DQ
